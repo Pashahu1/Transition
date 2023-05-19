@@ -1,0 +1,17 @@
+.box {
+  width: 500px;
+  height: 70px;
+  background-color: aqua;
+  // transition-duration: 500ms;
+  // transition-property: width;
+  // transition-delay: 1s;
+  // transition-timing-function: ease;
+  transition: width 0.5s ease 1s;
+  cursor: pointer;
+
+  &:hover {
+    transition: width 1s ease;
+    width: 200px;
+    background-color: aquamarine;
+  }
+}
